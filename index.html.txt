@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Portfólio Ronaldo</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>PortfólioRonaldo Mendes Rodrigues</h1>
+
+<nav>
+
+<a href="#sobre">Sobre mim</a>
+
+<a href="#projetos">Projetos</a>
+
+</nav>
+
+</header>
+
+<section id="sobre">
+
+<h2>Sobre mim</h2>
+
+<p>
+
+Meu nome é Ronaldo Mendes Rodrigues
+. Sou estudante de Programação Web e estou aprendendo HTML, CSS e JavaScript.
+
+</p>
+
+</section>
+
+<section id="projetos">
+
+<h2>Meus projetos</h2>
+
+<div id="lista"></div>
+
+</section>
+
+<footer>
+
+<p>2026</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
