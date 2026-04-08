@@ -1,0 +1,45 @@
+let projetos = [
+
+{
+
+nome:"Portfólio HTML",
+
+descricao:"Primeiro site usando HTML"
+
+},
+
+{
+
+nome:"Atividade CSS",
+
+descricao:"Estilização usando CSS"
+
+},
+
+{
+
+nome:"Projeto JavaScript",
+
+descricao:"Lista dinâmica com JavaScript"
+
+}
+
+]
+
+let lista = document.getElementById("lista")
+
+projetos.forEach(projeto => {
+
+lista.innerHTML += `
+
+<div class="card">
+
+<h3>${projeto.nome}</h3>
+
+<p>${projeto.descricao}</p>
+
+</div>
+
+`
+
+})
